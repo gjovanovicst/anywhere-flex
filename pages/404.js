@@ -1,0 +1,1 @@
+import AbstractView from"./AbstractView.js";import pageNotFound from"./404.html";export default class extends AbstractView{constructor(t){super(t),this.setTitle("Page Not Found")}script(){}async getHtml(){return pageNotFound}}
